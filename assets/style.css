@@ -1,0 +1,54 @@
+body {
+  font-family: "Inter", sans-serif;
+   background-color:white;
+    color:#e2e8f0;
+}
+.scroll-smooth {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+.navbar-fixed {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.blob-bg {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.profile-img {
+  position: relative;
+  z-index: 2;
+}
+#to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 50px;
+  height: 50px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+.text-primary-custom {
+  color: #a78bfa !important;
+}
+.bg-primary-custom {
+  background-color: #8b5cf6 !important;
+}
+.btn-primary-custom {
+  background-color: #8b5cf6 !important;
+  border-color: #8b5cf6 !important;
+  color: white !important;
+}
+
+.btn-primary-custom:hover {
+  background-color: #7c3aed !important;
+  border-color: #7c3aed !important;
+}
